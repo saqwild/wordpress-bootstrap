@@ -1,6 +1,8 @@
 # YouTube Channel Benchmark — "Explained From Within"
 
 Working notes for validating the channel strategy against comparable channels.
+
+**Full review document:** [COMPARISON-REPORT.md](COMPARISON-REPORT.md)
 Data is collected manually from YouTube (the research environment cannot reach youtube.com).
 
 ## Hypothesis under test

@@ -92,5 +92,6 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Midpoint: hour 24, caffeine stops working. Climax: hour 36, drowsy drive home (microsleep / local sleep).
 - Callback: "Your body doesn't wait for 'after'."
 
-Open adjustment from benchmark #1: Think Science narrates the Host as **"you"**, not a named character →
-keep the Host as a consistent visual reference, but narrate in second person.
+Adjustment confirmed by benchmarks #1 and #4: winners narrate the Host as **"you"**, not a named character →
+keep the Host as a consistent visual reference (internal name only), narrate in second person.
+Full updated story sheet: COMPARISON-REPORT.md, Section 10.
