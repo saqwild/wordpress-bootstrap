@@ -21,6 +21,7 @@ If story channels outperform no-story channels of similar size and style, the hy
 | 4 | [The Infographics Show](04-the-infographics-show.md) | 2D "what happens to you" stories | Does story work without 3D? | ✅ Data in |
 | 5 | Life Noggin | 2D, recurring host character | Does a recurring guide help? | ⏳ Optional |
 | 6 | Zack D. Films | 3D Shorts, no human story | Shorts-first vs long-form | ⏳ Optional |
+| 7 | [Digest 3D](05-digest-3d.md) | 3D health, copycat of winners | **Failure control** — same launch month as Think Science | ✅ Data in |
 
 Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Fazer (2.43M).
 
@@ -62,6 +63,11 @@ Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Faze
 3D (accurate or AI) without story does not sustain. 3D is the differentiator, story is the engine.
 Recurring title patterns across 3 channels: "What Happens (to Your Body) When You…" and
 "(Minute/Hour by Hour)".
+
+**Failure control (Digest 3D):** launched 12 days after Think Science, same niche, 3D —
+126 videos, 1.63K subs, recent median ~48 views. Copied the surface (3D, health, clickbait titles,
+single-food topics, 3–4 min, ~3/week) but not the engine (story, strong topic clusters, 10–15 min,
+fewer high-quality episodes). Execution, not niche or timing, explains the gap.
 
 Limits: 4 channels, observational (not causal); channel size and length differ. The real test is
 our own first 3–5 episodes — measure CTR, average view duration and views per subscriber.

@@ -27,6 +27,23 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
   "Russian Sleep Experiment" 22M (sleep curiosity). Recent uploads 13–47 min.
 - **Verdict:** story is the engine, 3D is the differentiator. Format validated across 4 channels
   (observational). Next evidence must come from our own episodes.
+- Failure control **Digest 3D** (same launch month as Think Science): 126 videos, ~48-view recent median.
+  Copied surface, not engine → see anti-patterns below.
+
+## Anti-patterns (from Digest 3D and BodyLogic 3D)
+
+- Single-food topics ("eat X every day"), fear clickbait ("before it's too late 😱", "stop eating X until…")
+- False authority ("Doctor Approved") or fake first-person ("I ate…") on a faceless channel
+- 3–4 min videos (neither Short nor story-length)
+- Volume over quality (~3/week templated) and one repeated template
+- Positioning that sells the tool ("3D visualisation") instead of the viewer ("your body")
+
+## Launch expectations and decision rule
+
+- First episodes may get very few views. Judge episodes 1–6 on **CTR (≥5%)** and
+  **average view duration (≥40%)**, not raw views.
+- Review after 6 episodes: if CTR and retention hit targets but views don't, keep going (distribution lags);
+  if CTR is low → fix titles/thumbnails; if retention is low → fix story/pacing.
 
 ## Format rules (current)
 
