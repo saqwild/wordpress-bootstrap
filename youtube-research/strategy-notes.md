@@ -7,7 +7,8 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Rejected: AI tools tutorials (needs screen recordings, not generative video),
   Gen Z finance (dominated by on-camera creators; numbers/charts unsuitable for video models).
 - Chosen: **documentary / explainer — "what happens inside your body"**, cinematic 3D,
-  long-form (10–13 min), faceless, built with LTX-2.5 and MiniMax H3.
+  long-form (10–13 min to start; test ~18–20 min once retention data exists), faceless,
+  built with LTX-2.5 and MiniMax H3. Cadence target: 2–3 episodes / month.
 
 ## Evidence so far
 
@@ -21,6 +22,11 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Benchmark #3 **BodyLogic 3D** (125K subs, AI 3D, silent Shorts, one template): 2 viral hits = 78% of 261M views,
   recent median ~9.4K. AI 3D alone wins the lottery once, then decays. ~2,090 views per subscriber
   (vs Think Science ~117) → narration + story is what converts viewers into subscribers.
+- Benchmark #4 **The Infographics Show** (15.5M, 2D, second-person story): story works without 3D;
+  "What Happens When You Die?" 27M, "What Happens to Your Body…" 19M, "(Minute by Minute)" 20M,
+  "Russian Sleep Experiment" 22M (sleep curiosity). Recent uploads 13–47 min.
+- **Verdict:** story is the engine, 3D is the differentiator. Format validated across 4 channels
+  (observational). Next evidence must come from our own episodes.
 
 ## Format rules (current)
 
