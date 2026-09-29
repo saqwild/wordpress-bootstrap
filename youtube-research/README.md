@@ -16,7 +16,7 @@ If story channels outperform no-story channels of similar size and style, the hy
 | # | Channel | Style | Role in the test | Status |
 |---|---|---|---|---|
 | 1 | [Think Science](01-think-science.md) | 3D, human story → inside body | Our model (the outlier) | ✅ Data in |
-| 2 | Nucleus Medical Media | Accurate 3D medical, no human story | Is accuracy + 3D enough? | ⏳ Pending |
+| 2 | [Nucleus Medical Media](02-nucleus-medical-media.md) | Accurate 3D medical, no human story | Is accuracy + 3D enough? | ✅ Data in |
 | 3 | Inside Human Body 3d / BodyLogic 3D | AI 3D, templated | Does AI 3D alone work? | ⏳ Pending |
 | 4 | The Infographics Show | 2D "what happens to you" stories | Does story work without 3D? | ⏳ Pending |
 | 5 | Life Noggin | 2D, recurring host character | Does a recurring guide help? | ⏳ Optional |
@@ -35,14 +35,21 @@ Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Faze
 
 | Metric | Think Science | Nucleus | AI 3D | Infographics | Life Noggin |
 |---|---|---|---|---|---|
-| Subscribers | 240K | | | | |
-| Videos | 27 | | | | |
-| Channel age (months) | ~11 | | | | |
-| Avg views / video | ~1.04M | | | | |
-| Median views (recent) | ~437K (last 8) | | | | |
-| % videos ≥ 1M | 30% (8/27) | | | | |
-| Typical length | 10–15 min | | | | |
-| Opens with human story? | Yes ("you" scenario) | | | | |
-| Visual style | Cinematic 3D, real-life → microscopic | | | | |
+| Subscribers | 240K | 6.9M | | | |
+| Videos | 27 | 691 | | | |
+| Channel age | ~11 months | ~19.6 years | | | |
+| Avg views / video (lifetime) | ~1.04M | ~3.15M (old mega-hits) | | | |
+| **Median views (recent)** | **~437K** (last 8) | **~24.5K** (last 12) | | | |
+| **Recent median ÷ subscribers** | **~1.8×** | **~0.004×** | | | |
+| % recent videos ≥ 1M | 30% (8/27, all) | 0% (0/12) | | | |
+| Typical length | 10–15 min | 3–6 min | | | |
+| Opens with human story? | Yes ("you" scenario) | No (clinical anatomy) | | | |
+| Title framing | You + action + time / identity | Clinical condition / procedure | | | |
+| Visual style | Cinematic 3D, real life → microscopic | Accurate medical 3D | | | |
+| Business model | YouTube ads / sponsors | B2B licensing showcase | | | |
+
+**Running verdict:** 2 of 4 core channels in. Story-led beats accurate-but-clinical by ~18× on recent
+median despite 28× fewer subscribers. Confounded by title framing and length — #3 (AI 3D) and
+#4 (Infographics) needed to separate story from framing.
 
 See also: [strategy-notes.md](strategy-notes.md) for decisions made so far.

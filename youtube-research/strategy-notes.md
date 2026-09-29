@@ -15,6 +15,9 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Winners frame around **you + an action + time/limit**, not "how a process works".
 - Big-channel hits (Dr. Berg 15M, Joe Fazer 2.43M) prove topic demand only (views/subs ≈ 0.5–0.6×).
 - Only true small-channel outlier so far: **Think Science** (240K subs, 27 videos, 6.2M top hit).
+- Benchmark #2 **Nucleus Medical Media** (6.9M subs, accurate 3D, no story, clinical titles, 3–6 min):
+  recent median ~24.5K vs Think Science ~437K → accurate 3D alone does not earn recommendations.
+  Its all-time #1 (340M) is framed "What Happens If You…". Evergreen searchable topics compound for years.
 
 ## Format rules (current)
 
@@ -35,6 +38,8 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Claim ledger per script: claim → source → evidence level → wording.
 - Wording matches evidence ("in mice…", "research suggests…"). Never "approved by" an association.
 - Optional: paid licensed reviewer (MD/RD) credited in the description.
+- Accuracy = trust and defensibility, not the growth engine. Don't compete with medical studios on
+  anatomical precision; compete on story, framing and length.
 - Use competitors' transcripts as structural benchmarks only — never rewrite their scripts.
 
 ## Production mapping
