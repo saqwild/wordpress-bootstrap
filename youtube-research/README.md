@@ -17,7 +17,7 @@ If story channels outperform no-story channels of similar size and style, the hy
 |---|---|---|---|---|
 | 1 | [Think Science](01-think-science.md) | 3D, human story → inside body | Our model (the outlier) | ✅ Data in |
 | 2 | [Nucleus Medical Media](02-nucleus-medical-media.md) | Accurate 3D medical, no human story | Is accuracy + 3D enough? | ✅ Data in |
-| 3 | Inside Human Body 3d / BodyLogic 3D | AI 3D, templated | Does AI 3D alone work? | ⏳ Pending |
+| 3 | [BodyLogic 3D](03-bodylogic-3d.md) | AI 3D, templated, silent Shorts | Does AI 3D alone work? | ✅ Data in |
 | 4 | The Infographics Show | 2D "what happens to you" stories | Does story work without 3D? | ⏳ Pending |
 | 5 | Life Noggin | 2D, recurring host character | Does a recurring guide help? | ⏳ Optional |
 | 6 | Zack D. Films | 3D Shorts, no human story | Shorts-first vs long-form | ⏳ Optional |
@@ -35,21 +35,24 @@ Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Faze
 
 | Metric | Think Science | Nucleus | AI 3D | Infographics | Life Noggin |
 |---|---|---|---|---|---|
-| Subscribers | 240K | 6.9M | | | |
-| Videos | 27 | 691 | | | |
-| Channel age | ~11 months | ~19.6 years | | | |
-| Avg views / video (lifetime) | ~1.04M | ~3.15M (old mega-hits) | | | |
-| **Median views (recent)** | **~437K** (last 8) | **~24.5K** (last 12) | | | |
-| **Recent median ÷ subscribers** | **~1.8×** | **~0.004×** | | | |
-| % recent videos ≥ 1M | 30% (8/27, all) | 0% (0/12) | | | |
-| Typical length | 10–15 min | 3–6 min | | | |
-| Opens with human story? | Yes ("you" scenario) | No (clinical anatomy) | | | |
-| Title framing | You + action + time / identity | Clinical condition / procedure | | | |
-| Visual style | Cinematic 3D, real life → microscopic | Accurate medical 3D | | | |
-| Business model | YouTube ads / sponsors | B2B licensing showcase | | | |
+| Subscribers | 240K | 6.9M | 125K | | |
+| Videos | 27 | 691 | 168 (Shorts only) | | |
+| Channel age | ~11 months | ~19.6 years | ~15 months | | |
+| Avg views / video (lifetime) | ~1.04M | ~3.15M (old mega-hits) | ~1.55M (2 viral hits = 78%) | | |
+| **Median views (recent)** | **~437K** (last 8) | **~24.5K** (last 12) | **~9.4K** (last 15) | | |
+| **Recent median ÷ subscribers** | **~1.8×** | **~0.004×** | **~0.075×** |
+| **Views per subscriber gained (lifetime)** | **~117** | **~316** | **~2,090** | | | | |
+| % recent videos ≥ 1M | 30% (8/27, all) | 0% (0/12) | 0% (0/15) | | |
+| Typical length | 10–15 min | 3–6 min | Shorts (<1 min) | | |
+| Opens with human story? | Yes ("you" scenario) | No (clinical anatomy) | No (no narration at all) | | |
+| Title framing | You + action + time / identity | Clinical condition / procedure | "What happens to [food]" template | | |
+| Visual style | Cinematic 3D, real life → microscopic | Accurate medical 3D | AI 3D digestion, one template | | |
+| Business model | YouTube ads / sponsors | B2B licensing showcase | Shorts ads (low per-view pay) | | |
 
-**Running verdict:** 2 of 4 core channels in. Story-led beats accurate-but-clinical by ~18× on recent
-median despite 28× fewer subscribers. Confounded by title framing and length — #3 (AI 3D) and
-#4 (Infographics) needed to separate story from framing.
+**Running verdict:** 3 of 4 core channels in. Only the story-led channel sustains reach.
+- Accurate 3D, no story (Nucleus): ~24.5K recent median on 6.9M subs.
+- AI 3D, no story, one template (BodyLogic): 2 viral hits, then ~9.4K recent median; worst subscriber conversion.
+- Story-led cinematic 3D (Think Science): ~437K recent median on 240K subs; best subscriber conversion.
+Remaining confounders: title framing, length, Shorts vs long-form → #4 (Infographics) tests story without 3D.
 
 See also: [strategy-notes.md](strategy-notes.md) for decisions made so far.

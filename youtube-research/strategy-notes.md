@@ -18,6 +18,9 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - Benchmark #2 **Nucleus Medical Media** (6.9M subs, accurate 3D, no story, clinical titles, 3–6 min):
   recent median ~24.5K vs Think Science ~437K → accurate 3D alone does not earn recommendations.
   Its all-time #1 (340M) is framed "What Happens If You…". Evergreen searchable topics compound for years.
+- Benchmark #3 **BodyLogic 3D** (125K subs, AI 3D, silent Shorts, one template): 2 viral hits = 78% of 261M views,
+  recent median ~9.4K. AI 3D alone wins the lottery once, then decays. ~2,090 views per subscriber
+  (vs Think Science ~117) → narration + story is what converts viewers into subscribers.
 
 ## Format rules (current)
 
@@ -30,6 +33,9 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 5. **Objection handling** ~55%, practical section ~70–85%, "What we simplified" + caveats, callback close.
 6. **Visual coding:** outside = warm, realistic; inside = cool, bioluminescent; persistent on-screen clock.
 7. Host has no dialogue (narration only) — avoids lip-sync.
+8. **No single template.** Vary topic type and structure; never recycle the same topic.
+9. **Shorts are a funnel**, cut from each long episode (3–5 per episode), led by a true surprise/shock beat.
+10. Channel description discloses AI-assisted visuals + fictional Explorer.
 
 ## Accuracy policy
 
