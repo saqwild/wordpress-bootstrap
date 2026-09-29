@@ -22,6 +22,7 @@ If story channels outperform no-story channels of similar size and style, the hy
 | 5 | Life Noggin | 2D, recurring host character | Does a recurring guide help? | ⏳ Optional |
 | 6 | Zack D. Films | 3D Shorts, no human story | Shorts-first vs long-form | ⏳ Optional |
 | 7 | [Digest 3D](05-digest-3d.md) | 3D health, copycat of winners | **Failure control** — same launch month as Think Science | ✅ Data in |
+| 8 | [Inside Us](06-inside-us.md) | 3D anatomy, long-form, no story | **Length control** — long-form without story | ✅ Data in |
 
 Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Fazer (2.43M).
 
@@ -58,6 +59,8 @@ Also seen (not peers, used only for topic demand): Dr. Eric Berg (15M), Joe Faze
 | ✅ | ❌ (2D) | The Infographics Show | Sustained reach across all topics |
 | ❌ | ✅ (accurate) | Nucleus Medical Media | Not recommended (~24.5K recent median on 6.9M subs) |
 | ❌ | ✅ (AI) | BodyLogic 3D | One viral burst, then ~9.4K; poor subscriber conversion |
+| ❌ | ✅ (long-form 11–15 min) | Inside Us | ~720 recent median on 170K subs (~0.004×, same as Nucleus) |
+| ❌ / ? | ✅ (copycat, 3–4 min) | Digest 3D | ~48 recent median |
 
 **Hypothesis supported:** the second-person story is the common factor in every sustained winner;
 3D (accurate or AI) without story does not sustain. 3D is the differentiator, story is the engine.
@@ -69,7 +72,11 @@ Recurring title patterns across 3 channels: "What Happens (to Your Body) When Yo
 single-food topics, 3–4 min, ~3/week) but not the engine (story, strong topic clusters, 10–15 min,
 fewer high-quality episodes). Execution, not niche or timing, explains the gap.
 
-Limits: 4 channels, observational (not causal); channel size and length differ. The real test is
+**Length control (Inside Us):** 11–15 min like Think Science, but textbook titles and no story →
+same weak ratio as short-form Nucleus. Length is not the engine. Story and "you" framing always
+appear together in the winners — treat them as one package.
+
+Limits: 6 channels, observational (not causal); channel size differs. The real test is
 our own first 3–5 episodes — measure CTR, average view duration and views per subscriber.
 
 See also: [strategy-notes.md](strategy-notes.md) for decisions made so far.

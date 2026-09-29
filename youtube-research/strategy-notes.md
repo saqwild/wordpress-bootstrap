@@ -29,6 +29,9 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
   (observational). Next evidence must come from our own episodes.
 - Failure control **Digest 3D** (same launch month as Think Science): 126 videos, ~48-view recent median.
   Copied surface, not engine → see anti-patterns below.
+- Length control **Inside Us** (170K, 3D, 11–15 min, textbook titles, no story): ~720 recent median →
+  long-form alone does not work. Story + "you" framing is the engine (one package).
+- **Research closed** at 6 channels (2 story winners, 4 no-story/copycat underperformers). Next evidence = our own episodes.
 
 ## Anti-patterns (from Digest 3D and BodyLogic 3D)
 
@@ -37,6 +40,7 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 - 3–4 min videos (neither Short nor story-length)
 - Volume over quality (~3/week templated) and one repeated template
 - Positioning that sells the tool ("3D visualisation") instead of the viewer ("your body")
+- Textbook framing ("What is [disease]?", "Anatomy of [organ]") — targets students searching, not viewers browsing
 
 ## Launch expectations and decision rule
 
