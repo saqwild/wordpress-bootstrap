@@ -2,7 +2,7 @@
 
 Working notes for validating the channel strategy against comparable channels.
 
-**Full review document:** [COMPARISON-REPORT.md](COMPARISON-REPORT.md)
+**Full review document:** [COMPARISON-REPORT.md](COMPARISON-REPORT.md) · **Pipeline gaps:** [PIPELINE-GAP-ANALYSIS.md](PIPELINE-GAP-ANALYSIS.md)
 Data is collected manually from YouTube (the research environment cannot reach youtube.com).
 
 ## Hypothesis under test
