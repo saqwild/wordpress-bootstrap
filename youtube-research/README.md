@@ -78,7 +78,9 @@ fewer high-quality episodes). Execution, not niche or timing, explains the gap.
 same weak ratio as short-form Nucleus. Length is not the engine. Story and "you" framing always
 appear together in the winners — treat them as one package.
 
-Limits: 6 channels, observational (not causal); channel size differs. The real test is
-our own first 3–5 episodes — measure CTR, average view duration and views per subscriber.
+Limits: 6 channels, observational (not causal); only one directly comparable winner; each matched
+pair differs in budget, audience and format too; no failed story channels were searched (see the
+report's Review corrections, 2026-09-30). The real test is our own new-format episodes (EP004 on),
+read against their own baseline once each has ~1,000 impressions.
 
 See also: [strategy-notes.md](strategy-notes.md) for decisions made so far.

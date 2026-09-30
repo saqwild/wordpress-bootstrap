@@ -22,7 +22,7 @@
 |---|---|---|
 | Avg views / video (lifetime) | ~40K | |
 | Views per subscriber gained | ~141 | Built mostly from study compilations |
-| **Median, last 9 uploads** | **~720 views** | All 11–15 min; none above 1.1K |
+| **Median, last 9 uploads** | **~720 views** | All 11–15 min; none above 1.1K *(2026-09-30 re-check: ~505, and a 7.6 h compilation now appears)* |
 | **Recent median ÷ subscribers** | **~0.004×** | Same as Nucleus |
 
 ## Recent uploads (newest first)

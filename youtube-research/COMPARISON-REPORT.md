@@ -9,10 +9,100 @@ and plan for the new channel.
 (the research environment cannot reach youtube.com). Web research was used for trends, tools and science.
 View counts are snapshots from late September 2026.
 
+> **Revised 2026-09-30 after an independent review** that re-checked the numbers against the live
+> YouTube API. The numbers held up; the strength of the conclusions did not. Read
+> [Review corrections](#review-corrections-2026-09-30) first: it downgrades several claims, fixes
+> the Episode 1 science, and records the decisions taken since.
+
+---
+
+## Review corrections (2026-09-30)
+
+### Data check
+
+The reviewer re-pulled every figure from the YouTube Data API. All matched within normal drift,
+except:
+- **Inside Us** now includes a 7.6-hour compilation (median ~505; lengths 0–459 min, not "all
+  11–15 min").
+- **BodyLogic 3D** has not uploaded since **17 January 2026**, which weakens the evidence for H5
+  (see below).
+
+### Where the evidence was overstated
+
+1. **One comparable winner, not two.** The Infographics Show is a 15-year daily studio whose ratios
+   this report itself calls "not comparable". "Confirmed across 2 winners" (Section 9) rests mostly
+   on Think Science alone. **H9 is downgraded to "suggested, not confirmed".**
+2. **The matched pairs are confounded.** Each pair differs in more than story:
+   - Think Science is run by a media company.
+   - Digest 3D is low-effort clickbait.
+   - Inside Us serves students searching textbook terms.
+   - BodyLogic 3D is silent Shorts.
+
+   Budget, audience intent, format and quality differ together, so the 600× to 9,000× gaps cannot
+   be credited to story alone.
+3. **H5 ("burst, then decay")** may be partly "the creator stopped uploading". The conclusion is
+   probably still right; the evidence is weaker than stated.
+4. **The Infographics vs Nucleus pair is invalid.** It compared videos a few days old with videos
+   months old. It is struck from Section 6.
+5. **No failed story channels were searched.** Every second-person story channel in the sample is
+   a winner, because the sample was found by searching for hits, so H9 cannot yet be falsified.
+   **Open task:** find 3–5 small channels that use second-person story narration and record
+   whether any failed.
+6. **Wrong H3 mode.** The production mapping said "H3 I2V with reference sheets (up to 9 refs)".
+   In this pipeline, I2VA takes exactly one first frame. Multi-reference identity lock is Ref2VA,
+   which the pipeline has since removed. The Host stays consistent through Nano Banana first-frame
+   plates re-anchored from one approved Host sheet (04b/04c). That adds one sheet plus consistency
+   checks, not extra plates, because every I2VA shot needs one plate anyway.
+
+### Episode 1 science (fixed in Section 10)
+
+- **Brain waste clearance during sleep is contested.** Xie et al. 2013 found more clearance in
+  sleeping mice; Miao et al. 2024 (*Nature Neuroscience*) found less during sleep and anaesthesia.
+  Present it as debated, or leave it out.
+- **Alcohol comparison:** 17–19 h awake ≈ **0.05% blood alcohol** (Williamson & Feyer 2000);
+  24 h ≈ 0.10% (Dawson & Reid 1997). Never "legal limit": limits differ by country (0.08% in the
+  US, 0.05% in much of Europe, 0.0% in some countries).
+- **"Hour 24: the caffeine stops working"** is removed. It is the kind of absolute this report
+  criticises. Caffeine's effect fades as adenosine keeps building.
+- **Spiegel 2004 (hunger hormones):** 12 men; say "in a small study".
+- **"Local sleep":** rats (Vyazovskiy 2011) and patients with implanted electrodes (Nir 2017);
+  say so.
+
+### Risky topics (fixed in Section 11)
+
+- **#10 "Hold Your Breath"** is removed. It invites dangerous imitation (shallow-water blackout),
+  which YouTube's harmful-acts policy covers.
+- **#5 "Stop Drinking Alcohol"** stays only with a medical boundary: heavy daily drinkers must not
+  stop suddenly without medical help.
+- **The Episode 1 climax** stays non-graphic and safety-led.
+
+### The channel is not pre-launch
+
+The report read as if nothing was published. In fact:
+- **EP001** (Body) went live on 2026-09-22 and had 3 views after 8 days (channel: 8 views,
+  0 subscribers).
+- **EP002** (Manufacturing) is not publicly visible; check Studio.
+- **EP003** (Materials) is scheduled for 2026-09-30.
+
+Three views means near-zero impressions, not a failed click-through rate. It weakly supports the
+point that mechanism titles on a new channel get little browse traffic.
+
+### Decisions taken since (pipeline PR saqwild/vidgen_minimax#1)
+
+| Topic | Decision |
+|---|---|
+| Numbering | New-format episodes start at **EP004**; EP001–EP003 stay published |
+| Pillars | Next six episodes are all Inside Your Body; Manufacturing and Materials stay dormant (playlists stay up) |
+| Narration | Control's narration is recorded or TTS-generated once per episode and laid in at post-production. EP003's native H3 dialogue slurred in three clips and varied 22 LU; forty clips cannot hold one narrator voice. The Explorer keeps short native helmet-radio lines; music is a post-production bed. |
+| Clips | 40 × 15 s, not 80–120 × 5–8 s. Plate review, not render time, is the real cost. |
+| KPIs | CTR read only after ~1,000 impressions; the first four new uploads set the baseline; 5% CTR / 40% viewed are reference points, not targets (Section 11 revised) |
+| Cheap title test | If YouTube Studio's Test & Compare offers titles, test EP003 as "What Happens Inside Concrete As It Hardens (Hour by Hour)" against its current title. This tests the timeline half of the idea with no production change. |
+
 ---
 
 ## Contents
 
+0. [Review corrections (2026-09-30)](#review-corrections-2026-09-30)
 1. [Executive summary](#1-executive-summary)
 2. [Discussion timeline — how we got here](#2-discussion-timeline--how-we-got-here)
 3. [Hypotheses tested — pass / fail](#3-hypotheses-tested--pass--fail)
@@ -33,7 +123,7 @@ View counts are snapshots from late September 2026.
 
 - **Niche chosen:** cinematic "what happens inside your body" documentary/explainer, long-form, faceless,
   produced with LTX-2.5 and MiniMax H3. Gen Z finance and AI-tool tutorials were rejected.
-- **What wins (supported by 6 channels):** a **second-person story** ("you" are the protagonist) cut with
+- **What seems to win (suggested by 6 channels, one directly comparable winner — see Review corrections):** a **second-person story** ("you" are the protagonist) cut with
   the explanation, sold with **"What Happens To Your Body When You…"** and **"(Hour by Hour)"** titles.
 - **What does not win on its own:** 3D visuals (accurate or AI), accuracy, video length, the niche itself,
   launch timing, or copying the look of a winner.
@@ -41,8 +131,9 @@ View counts are snapshots from late September 2026.
   plus **researched claims** and a **"What we simplified"** segment none of the competitors have.
 - **Biggest risks:** inaccurate claims (policy + trust), templated AI output (inauthentic-content policy),
   slow start (first episodes may get very few views).
-- **Next step:** produce Episode 1 — *"What Happens To Your Body When You Don't Sleep (Hour by Hour)"* —
-  and judge episodes 1–6 on CTR (≥5%) and average view duration (≥40%), not raw views.
+- **Next step:** produce EP004, the first new-format episode — *"What Happens To Your Body When You
+  Don't Sleep (Hour by Hour)"* — and judge the format after six new episodes against the channel's own
+  baseline (CTR read only after ~1,000 impressions), not raw views.
 
 **Correction to earlier chat:** I previously said Think Science has the "best subscriber conversion".
 With all channels in, views-per-subscriber does **not** separate winners from losers
@@ -91,11 +182,11 @@ With all channels in, views-per-subscriber does **not** separate winners from lo
 | H2 | Extreme "until the limit / only eat X" format is proven for a **new** channel | Only seen on big channels (Berg 0.5×, Fazer 0.6×) | ⚠️ **Not proven** (topic demand only) |
 | H3 | "Hour by hour" timeline format works for a small channel | Think Science 6.2M on 240K subs; Infographics "Minute by Minute" 20M | ✅ **Pass** |
 | H4 | Accurate 3D alone earns recommendations | Nucleus: 6.9M subs, recent median ~24.5K | ❌ **Fail** |
-| H5 | AI 3D alone sustains a channel | BodyLogic: 2 viral hits = 78% of views, recent median ~9.4K | ❌ **Fail** (burst, then decay) |
+| H5 | AI 3D alone sustains a channel | BodyLogic: 2 viral hits = 78% of views, recent median ~9.4K; no upload since 17 Jan 2026 | ❌ **Fail** (burst, then decay — partly the creator stopping; weaker evidence) |
 | H6 | Story works without 3D | Infographics (2D, second-person story): ~546K median within days | ✅ **Pass** |
-| H7 | Long-form length is the engine | Inside Us (11–15 min, no story): median ~720 on 170K subs | ❌ **Fail** |
+| H7 | Long-form length is the engine | Inside Us (mostly 11–15 min, no story; now also a 7.6 h compilation): median ~505–720 on 170K subs | ❌ **Fail** |
 | H8 | Niche + timing explain success | Digest 3D launched 12 days after Think Science, same niche: median ~48 | ❌ **Fail** |
-| H9 | Second-person story + "you" titles is the common factor of sustained winners | Present in both sustained winners; absent or broken in all 4 underperformers | ✅ **Pass** (observational, not causal) |
+| H9 | Second-person story + "you" titles is the common factor of sustained winners | Present in both sustained winners (only one directly comparable); absent in all 4 underperformers, but each pair is confounded; no failed story channels were searched | ⚠️ **Suggested, not confirmed** (observational; not yet falsifiable) |
 | H10 | Accuracy drives growth | Most accurate channel (Nucleus) is not recommended; top Think Science hits are inaccurate | ❌ **Fail** as a growth driver — ✅ still required for trust and policy |
 | H11 | Shorts can be the business | BodyLogic: 261M views → 125K subs; recent ~9.4K; low Shorts pay | ❌ **Fail** as business — ✅ keep as funnel |
 | H12 | Single-food "eat X every day" topics work | Flop on Think Science (eggs 85K, bread 10K); Digest 3D ~48 | ❌ **Fail** |
@@ -271,9 +362,10 @@ Ratios are only fair between channels of similar size or age. These pairs are:
 | Think Science vs **Inside Us** | Similar size (240K vs 170K), both long-form 3D | ~437K | ~720 | **~600×** |
 | Think Science vs **Digest 3D** | Same launch month, same niche | ~437K | ~48 | **~9,000×** |
 | Think Science vs **BodyLogic 3D** | Both young AI-era body channels | ~437K | ~9.4K (Shorts) | **~46×** |
-| Infographics vs **Nucleus** | Both large legacy channels | ~0.035× subs within days | ~0.004× subs over months | **~10×+** per subscriber |
+| ~~Infographics vs **Nucleus**~~ | ~~Both large legacy channels~~ | ~~~0.035× subs within days~~ | ~~~0.004× subs over months~~ | **Invalid** — compared videos days old with videos months old |
 
-In every fair pair, the story channel wins by one to four orders of magnitude.
+In every remaining pair the story channel wins by one to four orders of magnitude, **but each pair also
+differs in budget, audience intent, format and quality**, so the gap cannot be credited to story alone.
 
 ---
 
@@ -324,9 +416,9 @@ In every fair pair, the story channel wins by one to four orders of magnitude.
 
 ## 9. The two-layer story model (updated)
 
-**Status:** originally inferred from one video (Think Science); now **confirmed across 2 winners**
-(Think Science, The Infographics Show) and **absent in all 4 underperformers** (Nucleus, Inside Us,
-BodyLogic 3D, Digest 3D).
+**Status:** originally inferred from one video (Think Science). **Suggested, not confirmed:** it is
+present in Think Science and The Infographics Show (not directly comparable) and absent in the four
+underperformers, but those pairs are confounded and no failed story channels were searched.
 
 ### How the winning videos actually work
 
@@ -405,21 +497,21 @@ Fill this in for every episode **before writing a single line**:
 | **Trigger** | 11 PM: the build breaks. You make coffee and tell yourself you'll sleep after. |
 | **Stakes** | Judgment, health — and at the climax, your life |
 | **Outside beats** | Hour 16: sharp, confident → Hour 20: 3 AM, rereading the same lines → Hour 24: launch day, irritable, you forget a colleague's name → Hour 30: you laugh at nothing, then snap → Hour 36: the drive home |
-| **Inside checkpoints** | Adenosine building up → caffeine blocking its receptors ("bouncers at the door") → the brain's cleaning system falling behind (mouse research — say so) → hunger hormones shifting (ghrelin up, leptin down → reaching for sugar) → microsleeps |
+| **Inside checkpoints** | Adenosine building up → caffeine blocking its receptors ("bouncers at the door") → hunger hormones shifting (ghrelin up, leptin down, **in a small study**) → microsleeps. The brain's cleaning system during sleep is **contested** (Xie 2013 vs Miao 2024): present it as debated or leave it out |
 | **Main metaphor** | **"The Pressure Tank."** Adenosine fills it with every waking hour; caffeine holds the valve shut. The Explorer flies into the tank. |
-| **Midpoint turn** | Hour 24: the caffeine stops working — the tank is too full to hold back |
-| **Objection** | "But I've pulled all-nighters before and I was fine" → performance at ~17–19 h awake resembles legal-limit alcohol impairment (you don't feel it; you measure it) |
-| **Climax** | Hour 36, driving home. Outside: your eyes close for 3 seconds at a traffic light. Inside: the Explorer watches parts of the brain **go offline while you're awake** ("local sleep", reported in research — verify wording in the claim ledger) |
+| **Midpoint turn** | Hour 24: the tank keeps filling; the coffee helps less and less as adenosine keeps building (no "stops working" absolute) |
+| **Objection** | "But I've pulled all-nighters before and I was fine" → at ~17–19 h awake, performance is impaired about as much as **0.05% blood alcohol** (Williamson & Feyer 2000; never "legal limit") — you don't feel it; you measure it |
+| **Climax** | Hour 36, driving home. Outside: your eyes close for 3 seconds at a traffic light. Inside: the Explorer watches parts of the brain **go offline while you're awake** ("local sleep": seen in rats and in patients with implanted electrodes — say so on screen) |
 | **Resolution** | A car horn. You pull over and sleep in the car. Narration: what happens to the tank during recovery sleep, then a brief look at the 264-hour (11-day) record from 1964 |
-| **Surprise beat** | 17 hours awake ≈ alcohol-level impairment → lead Short |
+| **Surprise beat** | 17–19 hours awake ≈ 0.05% blood alcohol → lead Short |
 | **What we simplified** | Adenosine shown as visible liquid; brain regions colour-coded; timings vary by person |
 | **Callback** | Open: "You tell yourself you'll sleep after." Close: "Your body doesn't wait for 'after'." |
 
 **Why it fits:** working-adult Host matches the 40+ audience; drowsy driving is a real public-safety message, not shock for its own sake; the story stops at a realistic 36 h while narration covers the extreme record; sleep is a gap Think Science hasn't covered and has proven curiosity (Infographics "Russian Sleep Experiment" 22M — a fictional legend; ours uses real science).
 
-**Key sources to verify in the ledger:** NHLBI (7+ h for adults; effects of sleep deficiency) · Williamson & Feyer 2000 (sleep deprivation vs alcohol) · Spiegel et al. 2004 (ghrelin/leptin) · Xie et al. 2013 (glymphatic clearance, mice) · Randy Gardner 1964 record · CDC *Preventing Chronic Disease* 2023.
+**Key sources to verify in the ledger:** NHLBI (7+ h for adults; effects of sleep deficiency) · Williamson & Feyer 2000 (sleep deprivation vs alcohol) · Spiegel et al. 2004 (ghrelin/leptin) · Xie et al. 2013 and Miao et al. 2024 (brain clearance in sleep — contested, mice) · Dawson & Reid 1997 · Vyazovskiy et al. 2011; Nir et al. 2017 (local sleep) · Randy Gardner 1964 record · CDC *Preventing Chronic Disease* 2023.
 
-**Production note:** the Host needs a character reference sheet just like the Explorer. Use **H3 I2V with reference images** for all Host scenes so the person stays consistent from shot 1 to shot 30.
+**Production note (corrected):** the Host needs a character reference sheet just like the Explorer. H3 I2VA takes **one first frame per shot**, so every Host shot starts from a Nano Banana plate re-anchored from the approved Host sheet (04b/04c); that keeps the person consistent without multi-reference Ref2VA.
 
 ---
 
@@ -432,7 +524,7 @@ Fill this in for every episode **before writing a single line**:
 > Micro-Journey through cinematic 3D. The Explorer is fictional; visuals are AI-assisted; every episode
 > is researched, lists its sources, and shows what was simplified.
 
-Launch pillar: **Inside Your Body** only. Later: Inside Manufacturing → Inside Materials → Inside Technology.
+Launch pillar: **Inside Your Body** for the next six new-format episodes. Manufacturing (EP002) and Materials (EP003) are already published and stay dormant, with their playlists up; the six-episode review decides whether they return.
 
 ### Format rules
 
@@ -472,27 +564,31 @@ Launch pillar: **Inside Your Body** only. Later: Inside Manufacturing → Inside
 | 7 | What Happens To Your Body in a Cold Shower (Second by Second) | Timeline |
 | 8 | What Your Blood Type Actually Changes in Your Body (And What's a Myth) | Identity / myth-busting |
 | 9 | What Happens Inside Your Body When You Get Angry (Second by Second) | Timeline |
-| 10 | What Happens Inside Your Body When You Hold Your Breath | Timeline |
+| 10 | What Happens To Your Body on a Long-Haul Flight (Hour by Hour) | Timeline |
+
+*#10 replaces "Hold Your Breath" (dangerous imitation). #5 needs a medical boundary: heavy daily drinkers must not stop suddenly without medical help.*
 
 ### Production mapping (LTX-2.5 / MiniMax H3)
 
 | Asset | Model / mode | Why |
 |---|---|---|
-| Explorer + capsule, Host | **H3 I2V** with reference sheets (up to 9 refs) | Character consistency |
+| Explorer + capsule, Host | **H3 I2VA**, one first-frame plate per shot, plates re-anchored from locked reference sheets | Character consistency (corrected: I2VA takes exactly one image) |
 | Transitions between locations/times | **F2V** (first/last frame), H3 or LTX | Controlled start/end |
 | Environment B-roll (cells, fluids, organs) | **LTX-2.5 T2V/I2V**, local | Cheap in bulk, up to ~20 s, multi-shot |
 | Clock, labels, numbers, disclaimers | Editor | Models garble text |
-| Narration | Own voice or one consistent licensed voice, human-written script | Authenticity |
+| Narration | One consistent recorded or TTS voice, laid in at post-production (adopted 2026-09-30); the Explorer keeps short native radio lines | Consistency and authenticity |
 
-Budget guide: a 10-minute episode ≈ 80–120 clips of 5–8 s.
+Budget guide (revised): a 10-minute episode ≈ 40 clips of 15 s. The cost that matters is reviewed first-frame plates, not render time.
 
 ### Launch KPIs and decision rule
 
-| Metric | Target (episodes 1–6) | If below target |
+*Revised 2026-09-30: fixed targets from competitors are not a fair test for a channel with 0 subscribers.*
+
+| Metric | Rule (new-format episodes EP004–EP009) | If below |
 |---|---|---|
-| Click-through rate (CTR) | ≥ 5% | Fix titles/thumbnails |
-| Average view duration | ≥ 40% | Fix story/pacing, earlier hook, tighter checkpoints |
-| Views | Not judged before episode 6 | If CTR + retention hit targets but views lag → keep going (distribution lags) |
+| Click-through rate (CTR) | Read only after ~1,000 impressions. EP004–EP007 set the baseline; 5% is a reference point | Fix titles/thumbnails, one variable at a time |
+| Average percentage viewed | Compare with the EP004–EP007 baseline; 40% is a reference point | Fix story/pacing, earlier hook, tighter checkpoints |
+| Views | Not judged before the sixth new-format episode | If CTR and retention hold but views lag → keep going (distribution lags) |
 
 Decide these rules before publishing, so a quiet first week doesn't trigger a panic switch to clickbait
 (the Digest 3D pattern).

@@ -44,10 +44,11 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 
 ## Launch expectations and decision rule
 
-- First episodes may get very few views. Judge episodes 1–6 on **CTR (≥5%)** and
-  **average view duration (≥40%)**, not raw views.
-- Review after 6 episodes: if CTR and retention hit targets but views don't, keep going (distribution lags);
-  if CTR is low → fix titles/thumbnails; if retention is low → fix story/pacing.
+- First episodes may get very few views. *(Revised 2026-09-30.)* Read CTR only once a video has
+  ~1,000 impressions; the first four new-format uploads (EP004–EP007) set the channel's own baseline;
+  5% CTR and 40% viewed are reference points, not targets.
+- Review after six new-format episodes: if CTR and retention hold against the baseline but views don't,
+  keep going (distribution lags); if CTR is low → fix titles/thumbnails; if retention is low → fix story/pacing.
 
 ## Format rules (current)
 
@@ -79,17 +80,21 @@ Running log of decisions and evidence. Newest decisions at the bottom of each se
 
 | Asset | Model / mode |
 |---|---|
-| Explorer + capsule, Host | H3 I2V with reference sheets (up to 9 refs) |
+| Explorer + capsule, Host | H3 I2VA: one first-frame plate per shot, re-anchored from locked reference sheets (corrected 2026-09-30) |
 | Location transitions | F2V (first/last frame) |
 | Environment B-roll | LTX-2.5 T2V/I2V (local, cheap in bulk) |
 | Labels, numbers, clock, disclaimers | Editor — never generated |
+| Control narration, music | Recorded/TTS narrator and a music bed at post-production (adopted 2026-09-30) |
 
 ## Episode 1 (draft, pending benchmark)
 
 "What Happens To Your Body When You Don't Sleep (Hour by Hour)"
 - Host: working adult, night before a product launch (narrated as "you").
 - Master metaphor: "The Pressure Tank" (adenosine); caffeine holds the valve shut.
-- Midpoint: hour 24, caffeine stops working. Climax: hour 36, drowsy drive home (microsleep / local sleep).
+- Midpoint: hour 24, the coffee helps less and less as the tank keeps filling (no "stops working" absolute).
+  Climax: hour 36, drowsy drive home, non-graphic and safety-led (microsleep; local sleep — rats and implanted-electrode patients).
+- Science locks (2026-09-30): "about 0.05% blood alcohol", never "legal limit"; brain clearance during sleep is contested
+  (Xie 2013 vs Miao 2024); hunger hormones = small study. This is now EP004 (EP001–EP003 are published).
 - Callback: "Your body doesn't wait for 'after'."
 
 Adjustment confirmed by benchmarks #1 and #4: winners narrate the Host as **"you"**, not a named character →

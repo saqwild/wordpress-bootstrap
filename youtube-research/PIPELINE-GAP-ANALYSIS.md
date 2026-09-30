@@ -111,7 +111,8 @@ research says drive views:
 
 - **Add `08-post-release-review`** (not an owner-gated render stage; an analytics record):
   48 h and 7 d snapshots (impressions, CTR, AVD %, retention at 0:15/0:30, traffic sources, subs gained).
-  Decision rule: CTR < 5% → packaging; AVD < 40% → story/pacing; both OK but low views → continue.
+  Decision rule (revised 2026-09-30): CTR read only after ~1,000 impressions; the first four new uploads set the
+  baseline; below baseline CTR → packaging; below baseline retention → story/pacing; both OK but low views → continue.
   Output feeds the next episode's 01 ideation.
 
 ### C9 — Shorts (PILOT_AND_EPISODE_FORMATS, 06a)

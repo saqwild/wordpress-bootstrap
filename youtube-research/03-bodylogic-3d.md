@@ -52,6 +52,7 @@ Yogurt 21K · Warm water & honey 22K
 - Early novelty → two mega-hits (the biggest adds a **shock/disgust element: parasite worms**).
 - Then one template repeated (food X through digestion), same topics recycled (banana, Coca-Cola twice)
   → recent median collapsed to ~9K. Novelty exhausted, audience saturated.
+  *Review note (2026-09-30): the channel has not uploaded since 17 January 2026, so part of the "decay" may simply be the creator stopping.*
 - Worst subscriber conversion of all channels so far: ~2,090 views per subscriber.
   Silent Shorts get watched, not followed.
 - Confounders: Shorts vs long-form are different ecosystems; no narration at all.
