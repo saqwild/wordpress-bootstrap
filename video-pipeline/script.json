@@ -1,0 +1,984 @@
+{
+  "title": "How does a Combination Lock work?",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "voice": "am_michael",
+  "voice_speed": 0.94,
+  "combination": [
+    35,
+    6,
+    18
+  ],
+  "lead_in": 0.4,
+  "default_pad": 1.3,
+  "shots": [
+    {
+      "id": "hook",
+      "chapter": "A dial attached to nothing",
+      "narration": "This lock has a dial with forty numbers, and it opens for just one sequence of three. That's sixty-four thousand possible combinations. Yet the dial isn't connected to the latch at all. Spin it as much as you like, and nothing that holds this lock shut will move. So how does a dial that's attached to nothing know the right numbers?",
+      "camera": {
+        "target": [
+          0,
+          0,
+          0.75
+        ],
+        "from": {
+          "az": 42,
+          "el": 16,
+          "dist": 8.92
+        },
+        "to": {
+          "az": -12,
+          "el": 10,
+          "dist": 8.16
+        }
+      },
+      "events": [
+        {
+          "type": "dial",
+          "to": 8,
+          "dir": "R",
+          "full_turns": 0,
+          "t": [
+            0.42,
+            0.6
+          ]
+        },
+        {
+          "type": "dial",
+          "to": 27,
+          "dir": "L",
+          "full_turns": 0,
+          "t": [
+            0.62,
+            0.84
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exterior",
+      "chapter": "The outside",
+      "narration": "From the outside, there are only a few parts. The U-shaped shackle. The steel body. The dial, with its numbers from zero to thirty-nine. And a small mark at the top, called the index, which shows the number you're on.",
+      "camera": {
+        "target": [
+          0,
+          0,
+          0.7
+        ],
+        "from": {
+          "az": 18,
+          "el": 8,
+          "dist": 7.82
+        },
+        "to": {
+          "az": 4,
+          "el": 4,
+          "dist": 7.31
+        }
+      },
+      "labels": [
+        {
+          "text": "Shackle",
+          "anchor": "shackle_top",
+          "t": [
+            0.14,
+            0.97
+          ]
+        },
+        {
+          "text": "Body",
+          "anchor": "body_side",
+          "t": [
+            0.3,
+            0.97
+          ]
+        },
+        {
+          "text": "Dial",
+          "anchor": "dial_edge",
+          "t": [
+            0.43,
+            0.97
+          ]
+        },
+        {
+          "text": "Index mark",
+          "anchor": "index",
+          "t": [
+            0.7,
+            0.97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "chapter": "Inside the body",
+      "narration": "Let's make the body transparent and look inside. Right behind the dial is the drive cam, fixed to the dial by a spindle, so it turns whenever the dial turns. Behind it are two wheels that sit loosely on the spindle. And above them all is the latch, the part that actually holds the shackle.",
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.45
+        ],
+        "from": {
+          "az": 6,
+          "el": 8,
+          "dist": 7.31
+        },
+        "to": {
+          "az": 48,
+          "el": 22,
+          "dist": 5.61
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "body"
+          ],
+          "to": 0.1,
+          "t": [
+            0.02,
+            0.18
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "dial"
+          ],
+          "to": 0.18,
+          "t": [
+            0.1,
+            0.25
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Drive cam",
+          "anchor": "cam_rim",
+          "t": [
+            0.24,
+            0.97
+          ]
+        },
+        {
+          "text": "Spindle",
+          "anchor": "spindle",
+          "t": [
+            0.34,
+            0.97
+          ]
+        },
+        {
+          "text": "Front wheel",
+          "anchor": "wheel_a_rim",
+          "t": [
+            0.56,
+            0.97
+          ]
+        },
+        {
+          "text": "Back wheel",
+          "anchor": "wheel_b_rim",
+          "t": [
+            0.62,
+            0.97
+          ]
+        },
+        {
+          "text": "Latch",
+          "anchor": "latch",
+          "t": [
+            0.8,
+            0.97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gates",
+      "chapter": "Three gates",
+      "narration": "Each of these three discs has a small notch cut into its edge. It's called a gate. The lock opens only when all three gates are lined up at the top, directly under the latch. One number for each gate.",
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.35
+        ],
+        "from": {
+          "az": 48,
+          "el": 22,
+          "dist": 5.61
+        },
+        "to": {
+          "az": 30,
+          "el": 34,
+          "dist": 4.25
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "body",
+            "dial",
+            "shackle"
+          ],
+          "to": 0.0,
+          "t": [
+            0.0,
+            0.15
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "latch"
+          ],
+          "to": 0.0,
+          "t": [
+            0.0,
+            0.15
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "gate_cam",
+            "gate_a",
+            "gate_b"
+          ],
+          "t": [
+            0.2,
+            0.75
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Gate",
+          "anchor": "gate_cam",
+          "t": [
+            0.22,
+            0.97
+          ]
+        },
+        {
+          "text": "Gate",
+          "anchor": "gate_a",
+          "t": [
+            0.26,
+            0.97
+          ]
+        },
+        {
+          "text": "Gate",
+          "anchor": "gate_b",
+          "t": [
+            0.3,
+            0.97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fence",
+      "chapter": "The fence",
+      "narration": "Here's why. The latch has a finger underneath, called the fence, that sits just above the edges of the discs. A small spring holds the latch up, in a notch on the shackle. In many padlocks, pulling the shackle drives a ramp that pushes the latch down toward the discs. But if even one disc's edge is in the way, the fence can't drop, the latch can't move, and the shackle stays locked.",
+      "camera": {
+        "target": [
+          0.1,
+          -0.1,
+          0.9
+        ],
+        "from": {
+          "az": 52,
+          "el": 20,
+          "dist": 4.9
+        },
+        "to": {
+          "az": 66,
+          "el": 14,
+          "dist": 4.3
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "latch",
+            "shackle"
+          ],
+          "to": 1.0,
+          "t": [
+            0.0,
+            0.12
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "body"
+          ],
+          "to": 0.1,
+          "t": [
+            0.0,
+            0.12
+          ]
+        },
+        {
+          "type": "pull_blocked",
+          "t": [
+            0.66,
+            0.92
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "fence"
+          ],
+          "t": [
+            0.7,
+            0.92
+          ],
+          "color": [
+            1.0,
+            0.25,
+            0.2,
+            1
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Latch",
+          "anchor": "latch",
+          "t": [
+            0.05,
+            0.97
+          ]
+        },
+        {
+          "text": "Fence",
+          "anchor": "fence",
+          "t": [
+            0.16,
+            0.97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pins",
+      "chapter": "A chain of pins",
+      "narration": "The cam is easy: it turns with the dial. But how can the dial move two wheels that aren't attached to it? With a chain of small pins. The cam has a drive pin on its back. Each wheel has a tab on its front, called a fly, and the front wheel has another pin on its back. Turn the dial, and the cam's pin travels around until it bumps into the front wheel's fly, and starts dragging the wheel along.",
+      "step": "STEP 1   Turn RIGHT, three full turns",
+      "camera": {
+        "target": [
+          0,
+          -0.12,
+          0.25
+        ],
+        "from": {
+          "az": 58,
+          "el": 16,
+          "dist": 5.1
+        },
+        "to": {
+          "az": 72,
+          "el": 12,
+          "dist": 4.25
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "latch",
+            "shackle"
+          ],
+          "to": 0.0,
+          "t": [
+            0.0,
+            0.1
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "body"
+          ],
+          "to": 0.0,
+          "t": [
+            0.0,
+            0.1
+          ]
+        },
+        {
+          "type": "explode",
+          "to": 1.0,
+          "t": [
+            0.06,
+            0.24
+          ]
+        },
+        {
+          "type": "dial_turn",
+          "turns": 1.05,
+          "dir": "R",
+          "t": [
+            0.6,
+            0.99
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Drive pin",
+          "anchor": "cam_pin",
+          "t": [
+            0.3,
+            0.97
+          ]
+        },
+        {
+          "text": "Fly",
+          "anchor": "fly_a",
+          "t": [
+            0.42,
+            0.97
+          ]
+        },
+        {
+          "text": "Pin",
+          "anchor": "pin_a",
+          "t": [
+            0.5,
+            0.97
+          ]
+        },
+        {
+          "text": "Fly",
+          "anchor": "fly_b",
+          "t": [
+            0.53,
+            0.97
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "pickup",
+      "chapter": "Why three turns",
+      "narration": "Keep turning, and the front wheel's pin catches the back wheel. Now everything spins together. That's why you start by turning right several times: it gathers up every wheel, and wipes out whatever was set before. Then stop on the first number, thirty-five. The back wheel, the last one picked up, is now parked with its gate at the top.",
+      "step": "STEP 1   Turn RIGHT, three full turns, stop on 35",
+      "camera": {
+        "target": [
+          0,
+          -0.12,
+          0.3
+        ],
+        "from": {
+          "az": 72,
+          "el": 12,
+          "dist": 4.25
+        },
+        "to": {
+          "az": 38,
+          "el": 40,
+          "dist": 3.91
+        }
+      },
+      "events": [
+        {
+          "type": "dial",
+          "to": 35,
+          "dir": "R",
+          "full_turns": 2,
+          "t": [
+            0.0,
+            0.62
+          ]
+        },
+        {
+          "type": "explode",
+          "to": 0.0,
+          "t": [
+            0.62,
+            0.8
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "gate_b"
+          ],
+          "t": [
+            0.8,
+            0.98
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Back wheel gate",
+          "anchor": "gate_b",
+          "t": [
+            0.8,
+            0.98
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "second",
+      "chapter": "The second number",
+      "narration": "Now turn left. The cam's pin has to travel almost a full turn before it reaches the front wheel's fly from the other side. That's why you go past the first number once. From there, the front wheel moves with the dial, while the back wheel stays put, because nothing reaches it. Stop on six, and the front wheel's gate lines up too.",
+      "step": "STEP 2   Turn LEFT, past 35 once, stop on 6",
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.45
+        ],
+        "from": {
+          "az": 38,
+          "el": 40,
+          "dist": 3.91
+        },
+        "to": {
+          "az": 24,
+          "el": 44,
+          "dist": 3.74
+        }
+      },
+      "events": [
+        {
+          "type": "dial",
+          "to": 6,
+          "dir": "L",
+          "full_turns": 1,
+          "t": [
+            0.04,
+            0.84
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "gate_a",
+            "gate_b"
+          ],
+          "t": [
+            0.86,
+            0.99
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "third",
+      "chapter": "The third number",
+      "narration": "Finally, turn right, straight to the last number, eighteen. This time the pin never reaches a wheel. Only the cam turns, and its own gate swings into line. All three gates now form one slot, right under the fence.",
+      "step": "STEP 3   Turn RIGHT, stop on 18",
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.6
+        ],
+        "from": {
+          "az": 24,
+          "el": 44,
+          "dist": 3.74
+        },
+        "to": {
+          "az": 14,
+          "el": 52,
+          "dist": 3.23
+        }
+      },
+      "events": [
+        {
+          "type": "dial",
+          "to": 18,
+          "dir": "R",
+          "full_turns": 0,
+          "t": [
+            0.04,
+            0.55
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "gate_cam",
+            "gate_a",
+            "gate_b"
+          ],
+          "t": [
+            0.58,
+            0.99
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "text": "Three gates, one slot",
+          "anchor": "gate_a",
+          "t": [
+            0.62,
+            0.98
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "open",
+      "chapter": "Open",
+      "narration": "Pull the shackle. The ramp pushes the latch down against its spring, the fence drops into the slot, the latch slides free, and the shackle springs open.",
+      "camera": {
+        "target": [
+          0.15,
+          -0.1,
+          1.0
+        ],
+        "from": {
+          "az": 70,
+          "el": 10,
+          "dist": 5.44
+        },
+        "to": {
+          "az": 58,
+          "el": 12,
+          "dist": 6.12
+        }
+      },
+      "min_duration": 9.0,
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "latch"
+          ],
+          "to": 1.0,
+          "t": [
+            0.0,
+            0.1
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "shackle"
+          ],
+          "to": 1.0,
+          "t": [
+            0.0,
+            0.08
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "body"
+          ],
+          "to": 0.1,
+          "t": [
+            0.0,
+            0.08
+          ]
+        },
+        {
+          "type": "open",
+          "t": [
+            0.18,
+            0.62
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "fence"
+          ],
+          "t": [
+            0.2,
+            0.45
+          ],
+          "color": [
+            0.25,
+            1.0,
+            0.45,
+            1
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "relock",
+      "chapter": "Locking it again",
+      "narration": "To lock it again, push the shackle back in. The spring lifts the latch back into the shackle's notch, and the fence rises out of the slot. Now give the dial a spin, and the gates scatter. The lock forgets the combination, until someone dials it again.",
+      "camera": {
+        "target": [
+          0.1,
+          -0.1,
+          0.9
+        ],
+        "from": {
+          "az": 58,
+          "el": 12,
+          "dist": 6.12
+        },
+        "to": {
+          "az": 30,
+          "el": 20,
+          "dist": 6.46
+        }
+      },
+      "events": [
+        {
+          "type": "close",
+          "t": [
+            0.04,
+            0.4
+          ]
+        },
+        {
+          "type": "dial_turn",
+          "turns": 1.6,
+          "dir": "L",
+          "t": [
+            0.5,
+            0.9
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "recap1",
+      "chapter": "The whole sequence",
+      "narration": "Here's the whole sequence once more, from above, in one go. Right, three full turns, and stop on thirty-five.",
+      "step": "RIGHT  3 turns  stop on 35",
+      "min_duration": 15.0,
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.6
+        ],
+        "from": {
+          "az": 30,
+          "el": 40,
+          "dist": 4.76
+        },
+        "to": {
+          "az": 18,
+          "el": 50,
+          "dist": 4.08
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "latch",
+            "shackle"
+          ],
+          "to": 0.0,
+          "t": [
+            0.0,
+            0.08
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "dial"
+          ],
+          "to": 0.18,
+          "t": [
+            0.0,
+            0.08
+          ]
+        },
+        {
+          "type": "dial",
+          "to": 35,
+          "dir": "R",
+          "full_turns": 3,
+          "t": [
+            0.28,
+            0.96
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "recap2",
+      "narration": "Left, past thirty-five once, and stop on six.",
+      "step": "LEFT  past 35 once  stop on 6",
+      "min_duration": 9.0,
+      "camera": {
+        "target": [
+          0,
+          -0.1,
+          0.6
+        ],
+        "from": {
+          "az": 18,
+          "el": 50,
+          "dist": 4.08
+        },
+        "to": {
+          "az": 10,
+          "el": 54,
+          "dist": 3.82
+        }
+      },
+      "events": [
+        {
+          "type": "dial",
+          "to": 6,
+          "dir": "L",
+          "full_turns": 1,
+          "t": [
+            0.04,
+            0.92
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "recap3",
+      "narration": "Right, straight to eighteen. Three gates, one slot, and the shackle is free.",
+      "step": "RIGHT  stop on 18",
+      "min_duration": 10.0,
+      "camera": {
+        "target": [
+          0.1,
+          -0.1,
+          0.8
+        ],
+        "from": {
+          "az": 10,
+          "el": 54,
+          "dist": 3.82
+        },
+        "to": {
+          "az": 40,
+          "el": 22,
+          "dist": 5.61
+        }
+      },
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "latch",
+            "shackle"
+          ],
+          "to": 1.0,
+          "t": [
+            0.4,
+            0.52
+          ]
+        },
+        {
+          "type": "dial",
+          "to": 18,
+          "dir": "R",
+          "full_turns": 0,
+          "t": [
+            0.03,
+            0.4
+          ]
+        },
+        {
+          "type": "highlight",
+          "targets": [
+            "gate_cam",
+            "gate_a",
+            "gate_b"
+          ],
+          "t": [
+            0.4,
+            0.6
+          ]
+        },
+        {
+          "type": "open",
+          "t": [
+            0.55,
+            0.92
+          ]
+        }
+      ],
+      "readout": true
+    },
+    {
+      "id": "outro",
+      "chapter": "Not quite 64,000",
+      "narration": "One more detail. Parts like these are made with a little play, so numbers one or two away from the right one often work too. That's why the real number of different combinations is far smaller than sixty-four thousand. But the trick inside is the same: a dial attached to nothing, two wheels and a cam, and a fence waiting for one perfect line.",
+      "camera": {
+        "target": [
+          0,
+          0,
+          0.85
+        ],
+        "from": {
+          "az": 40,
+          "el": 22,
+          "dist": 5.61
+        },
+        "to": {
+          "az": -20,
+          "el": 14,
+          "dist": 9.18
+        }
+      },
+      "pad": 4.5,
+      "events": [
+        {
+          "type": "alpha",
+          "targets": [
+            "dial"
+          ],
+          "to": 1.0,
+          "t": [
+            0.1,
+            0.3
+          ]
+        },
+        {
+          "type": "alpha",
+          "targets": [
+            "body"
+          ],
+          "to": 1.0,
+          "t": [
+            0.22,
+            0.45
+          ]
+        }
+      ],
+      "end_card": true
+    }
+  ]
+}
